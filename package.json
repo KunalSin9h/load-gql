@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/kunalsin9h/load-graphql#readme",
   "devDependencies": {
+    "@types/node": "^20.8.0",
     "typescript": "^5.2.2"
   }
 }

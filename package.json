@@ -1,5 +1,5 @@
 {
-  "name": "load-gql",
+  "name": "@kunalsin9h/load-gql",
   "version": "1.0.0",
   "description": "A tiny GraphQL schema loader",
   "main": "lib/index.js",

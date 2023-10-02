@@ -1,0 +1,32 @@
+{
+  "name": "load-graphql",
+  "version": "1.0.0",
+  "description": "A tiny GraphQL schema loader",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalsin9h/load-graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "loader"
+  ],
+  "author": "Kunal Singh <kunal@kunalsin9h.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kunalsin9h/load-graphql/issues"
+  },
+  "homepage": "https://github.com/kunalsin9h/load-graphql#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

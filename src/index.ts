@@ -1,4 +1,4 @@
-import { statSync, readFileSync, readdirSync, copyFileSync } from "node:fs";
+import { statSync, readFileSync, readdirSync } from "node:fs";
 
 /**
  * Load GraphQL schema from .gql / .graphql files
@@ -39,7 +39,9 @@ function readSource(source: string) {
 
     return content;
   } else {
-    throw new Error("ERROR: The source is neither file nor directory");
+    throw new Error(
+      `ERROR: The source \"${source}\" is neither file nor directory`
+    );
   }
 }
 

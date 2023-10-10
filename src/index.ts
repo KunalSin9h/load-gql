@@ -25,7 +25,7 @@ function readSource(source: string) {
   let stat = statSync(source);
 
   if (stat.isFile()) {
-    if (source.includes(".gql") || source.includes(".graphql")) {
+    if (source.includes(".gql") || source.includes(".graphql") || source.includes(".graphqls")) {
       let content = readFileSync(source);
       return content.toString("utf-8");
     }
